@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+	<h1>Fun Facts about Goku</h1>	
+      
+  		<div id="facts">
+ 		
+      </div>
+  	
+      <img src="https://cdn.shopify.com/s/files/1/0976/8592/files/24yz81s.gif?9967996113813410362"  onclick="Goku()"/>
+  		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3eb70ccc-e7ad-4e1a-87fa-f97df9ef1c52/d79f6vd-6fd035bf-7d73-45af-b04b-24981dd4b057.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNlYjcwY2NjLWU3YWQtNGUxYS04N2ZhLWY5N2RmOWVmMWM1MlwvZDc5ZjZ2ZC02ZmQwMzViZi03ZDczLTQ1YWYtYjA0Yi0yNDk4MWRkNGIwNTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tTS3lH_duwZwyzTf9xAPBk3SwmVK0of-lltQ7jE5qu4" onclick="Goku1()" >
+  		<img src="https://cdn.shopify.com/s/files/1/0976/8592/files/2hg669w.gif?903833352549776809" onclick="Goku2()" >
+  		<img src="https://cdn.shopify.com/s/files/1/0976/8592/files/24vo8rl.gif?17270373652513799227" onclick="Goku3()">
+      
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
+
+<css>
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+  background-image: url("https://i0.wp.com/i.ytimg.com/vi/4QZ4F7JRXMs/maxresdefault.jpg?w=600");
+  background-repeat: no-repeat;
+  background-position: center;
+   background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+h1 {
+  font-size: 3em;    
+  color: gold;
+  text-shadow: 3px 2px #f2f2f2;
+  
+  
+}
+
+img {
+  margin: 20px;
+  height: 210px;
+  width: 220px;
+}
+
+div {
+  text-align: center;
+  border: 5px groove #001a66;
+  background: #ff9900;
+  width: 30%;
+  height: auto;
+  margin: 50px auto;
+  padding: 30px;
+  font-size: 2em;
+}
+</css>
+// JavaScript
+2
+var box=document.getElementById("facts");
+3
+function Goku(){
+4
+    box.innerHTML="<p>Goku is scared of needles.</p>";
+5
+}
+6
+function Goku1(){
+7
+  box.innerHTML="<p>In the whole of Dragon Ball Z, Goku has only killed two villains… Yakon and Kid Buu!.</p>";
+8
+}
+9
+function Goku2(){
+10
+  box.innerHTML="<p>In japan, May 9th is officially recognized as “Goku Day”</p>";
+11
+}
+12
+function Goku3(){
+13
+  box.innerHTML="<p>Goku has participated in 6 World Martial Arts Tournament and has won only once!</p>";
+14
+}
+
